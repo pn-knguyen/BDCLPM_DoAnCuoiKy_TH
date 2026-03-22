@@ -4,15 +4,10 @@ using NUnit.Framework;
 
 namespace DoAnCuoiKy_TH.Tests
 {
-    /// <summary>
-    /// Tests for verifying Excel data provider functionality.
-    /// </summary>
+
     [TestFixture]
     public class ExcelDataProviderTests
     {
-        /// <summary>
-        /// Verifies that the Excel provider can successfully read test case data from the file.
-        /// </summary>
         [Test]
         public void TestReadExcelFile_ShouldLoadTestCasesSuccessfully()
         {
@@ -34,9 +29,6 @@ namespace DoAnCuoiKy_TH.Tests
             }
         }
 
-        /// <summary>
-        /// Verifies that test cases contain valid structure and data.
-        /// </summary>
         [Test]
         public void TestExcelData_ShouldContainValidTestCaseStructure()
         {
@@ -58,9 +50,6 @@ namespace DoAnCuoiKy_TH.Tests
             }
         }
 
-        /// <summary>
-        /// Logs the details of a test case for verification purposes.
-        /// </summary>
         private void LogTestCaseDetails(DoAnCuoiKy.Models.TestCaseData testCase)
         {
             TestContext.Out.WriteLine("════════════════════════════════════════");
