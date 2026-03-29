@@ -12,14 +12,11 @@ namespace DoAnCuoiKy_TH.Tests.Login
     [TestFixture]
     public class LoginTests : DriverFactory
     {
-        #region Constants
 
         private const string ExcelSheetName = "TC_Nguyen";
         private const string TestCasePrefixFilter = "TC_";
         private const int MinEnabledTestCaseNumber = 1;
         private const int MaxEnabledTestCaseNumber = 5;
-
-        #endregion
 
         private LoginPage? loginPage;
         [TestCaseSource(nameof(GetVisibleLoginTestCases))]

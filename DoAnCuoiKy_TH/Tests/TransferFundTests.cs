@@ -12,14 +12,12 @@ namespace DoAnCuoiKy_TH.Tests.TransferFund
     [TestFixture]
     public class TransferFundTests : DriverFactory
     {
-        #region Constants
 
         private const string ExcelSheetName = "TC_Nguyen";
         private const string TestCasePrefixFilter = "TC_";
         private const int MinEnabledTestCaseNumber = 6;
         private const int MaxEnabledTestCaseNumber = 11;
 
-        #endregion
 
         private TransferFundPage? transferPage;
 
