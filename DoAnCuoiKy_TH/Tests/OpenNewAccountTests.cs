@@ -16,7 +16,7 @@ namespace DoAnCuoiKy_TH.Tests.OpenNewAccount
         private const string ExcelSheetName = "TC_Nguyen";
         private const string TestCasePrefixFilter = "TC_";
         private const int MinEnabledTestCaseNumber = 12;
-        private const int MaxEnabledTestCaseNumber = 17;
+        private const int MaxEnabledTestCaseNumber = 16;
 
         #endregion
 
